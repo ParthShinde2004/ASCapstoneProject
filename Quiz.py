@@ -1,7 +1,3 @@
-"""This is a capstone project for AS Level Computer Science. The program will check your understanding on Stacks
-& Queues (plus other topics) and add all the user's score to a separate file."""
-
-
 # Class for questions so that the code is much more efficient and smaller
 class Question:
     def __init__(self, prompt, answer):
@@ -14,7 +10,7 @@ question_prompts = [
     "Question 1", "Question 2", "Question 3"
 ]
 
-# Used the class to make a array with the questions and answers
+# Used the methods from the class to make a array with the questions and answers
 questions = [
     Question(question_prompts[0], "a"),
     Question(question_prompts[1], "b"),
