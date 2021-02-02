@@ -30,5 +30,4 @@ def run_quiz(questions):
     highscorefile.write("\n" + "Name: " + name + ", Score:" + str(score))
     print(score)
 
-
 run_quiz(questions)
