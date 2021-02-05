@@ -20,6 +20,7 @@ questions = [
     Question(question_prompts[3], "A")
 ]
 
+
 # Main quiz function
 def run_quiz(questions):
     name = str(input("What is your name?"))
