@@ -14,7 +14,7 @@ question_prompts = [
 
 # Used the methods from the class to make a array with the questions and answers
 questions = [
-    Question(question_prompts[0], "A"), # Make sure to add answers (Upper case) if you have added new questions
+    Question(question_prompts[0], "A"), # Make sure to add answers (Upper Case) if you have added new questions
     Question(question_prompts[1], "B"),
     Question(question_prompts[2], "C"),
     Question(question_prompts[3], "A")
